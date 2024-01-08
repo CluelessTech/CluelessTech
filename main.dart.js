@@ -31677,11 +31677,11 @@ ga5Q(){var s=this.a
 if(s instanceof A.jh)return s
 return this.a=new A.jh(s)},
 ga6p(){var s,r,q,p,o,n=this
-if(n.c===1)return B.l1
+if(n.c===1)return B.l0
 s=n.d
 r=J.aR(s)
 q=r.gq(s)-J.bc(n.e)-n.f
-if(q===0)return B.l1
+if(q===0)return B.l0
 p=[]
 for(o=0;o<q;++o)p.push(r.k(s,o))
 return J.agX(p)},
@@ -34694,7 +34694,7 @@ n=o.w=s.charCodeAt(0)==0?s:s}return n},
 gB2(){var s,r,q=this,p=q.x
 if(p===$){s=q.e
 if(s.length!==0&&s.charCodeAt(0)===47)s=B.d.ck(s,1)
-r=s.length===0?B.l3:A.WU(new A.al(A.a(s.split("/"),t.s),A.aw4(),t.Gf),t.N)
+r=s.length===0?B.l2:A.WU(new A.al(A.a(s.split("/"),t.s),A.aw4(),t.Gf),t.N)
 q.x!==$&&A.av()
 p=q.x=r}return p},
 gv(a){var s,r=this,q=r.y
@@ -34868,7 +34868,7 @@ gfJ(){var s=this.r,r=this.a
 return s<r.length?B.d.ck(r,s+1):""},
 gB2(){var s,r,q=this.e,p=this.f,o=this.a
 if(B.d.c9(o,"/",q))++q
-if(q===p)return B.l3
+if(q===p)return B.l2
 s=A.a([],t.s)
 for(r=q;r<p;++r)if(o.charCodeAt(r)===47){s.push(B.d.ab(o,q,r))
 q=r+1}s.push(B.d.ab(o,q,p))
@@ -37180,14 +37180,14 @@ s=$.bA
 r=new A.hP(B.kO,t.tm)
 return A.cj(q,A.dG(A.a([B.kb,B.kd,o,A.adO(B.iB,r.gd9(r).e1(0,new A.Sd(),t.a7).d0(0),B.Oh,s*10*0.77+10,0)],t.p),B.aw,B.K,B.P),q,q,q,q,p,q)}}
 A.Sd.prototype={
-$1(a){var s=null,r=a.a,q=B.l0[r]
+$1(a){var s=null,r=a.a,q=B.l6[r]
 return new A.ne(A.Zq(s,B.kY[r],s,a.b,s,q),s)},
 $S:334}
 A.Bz.prototype={
 G(a){var s=A.b4(a,null,t.w).w.a.a<600?0.5:0.4
-return A.dG(A.a([B.kb,B.kd,A.acb(new A.Se(),3,A.aca(!0,B.c9,B.aH,B.fV,!1,!0,$.bA*90*0.77+90,s))],t.p),B.aw,B.K,B.P)}}
+return A.dG(A.a([B.kb,B.kd,A.acb(new A.Se(),4,A.aca(!0,B.c9,B.aH,B.fV,!1,!0,$.bA*90*0.77+90,s))],t.p),B.aw,B.K,B.P)}}
 A.Se.prototype={
-$3(a,b,c){var s=null,r=B.kO[c],q=B.l0[c]
+$3(a,b,c){var s=null,r=B.kO[c],q=B.l6[c]
 return new A.c6(B.kr,A.Zq(s,B.kY[c],s,r,s,q),s)},
 $S:58}
 A.Df.prototype={
@@ -37312,7 +37312,7 @@ $S:352}
 A.Ec.prototype={
 G(a){var s=null,r=A.eO(a,!0,t.gl),q=A.eO(a,!0,t.At),p=r.a===B.at,o=p?B.c6:B.h,n=$.d1.a
 p=A.a([B.yG,B.kk,A.ah7(A.tx(B.Bk,n,s),B.Na,A.aim(n,B.eq,new A.Xn(r),p)),B.kk],t.p)
-n=new A.hP(B.l5,t.ly)
+n=new A.hP(B.l4,t.ly)
 B.b.M(p,n.gd9(n).e1(0,new A.Xo(q,a),t.l7))
 return new A.Cj(A.oG(B.T,new A.c6(B.AH,A.dG(p,B.c7,B.K,B.P),s),B.u,o,0,s,s,s,s,s,B.cf),s)}}
 A.Xn.prototype={
@@ -37337,7 +37337,7 @@ A.Eu.prototype={
 G(a){var s,r=null,q=A.eO(a,!0,t.gl),p=A.a1W(0.5,r),o=q.a===B.at?B.k:B.h,n=$.adu
 n.toString
 n=A.a([B.qd,n],t.p)
-s=new A.hP(B.l5,t.ly)
+s=new A.hP(B.l4,t.ly)
 B.b.M(n,s.gd9(s).e1(0,new A.Y8(),t.l7))
 s=$.H4
 s.toString
@@ -49060,8 +49060,8 @@ s=r.a3
 r.eh=s==null?null:s.gqo()
 a.a=!1},
 og(a,b,c){var s,r,q,p,o=this
-o.he=A.ahS(o.he,B.l2)
-o.iA=A.ahS(o.iA,B.l2)
+o.he=A.ahS(o.he,B.l1)
+o.iA=A.ahS(o.iA,B.l1)
 s=o.he
 r=s!=null&&!s.gN(s)
 s=o.iA
@@ -55617,7 +55617,7 @@ A.eJ.prototype={
 F(){return"ModifierKey."+this.b}}
 A.v6.prototype={
 ga5W(){var s,r,q=A.A(t.xS,t.LE)
-for(s=0;s<9;++s){r=B.l6[s]
+for(s=0;s<9;++s){r=B.l5[s]
 if(this.a5e(r))q.n(0,r,B.ca)}return q}}
 A.h_.prototype={}
 A.Zz.prototype={
@@ -55650,7 +55650,7 @@ j=$.fz()
 if(j!=null)j.$1(new A.bm(r,q,"services library",k,null,!1))}}return!1},
 a_2(a1){var s,r,q,p,o,n,m,l,k,j,i,h,g=a1.c,f=g.ga5W(),e=t.v3,d=A.A(e,t.bd),c=A.aO(e),b=this.d,a=A.fV(new A.b6(b,A.l(b).h("b6<1>")),e),a0=a1 instanceof A.hY
 if(a0)a.C(0,g.gho())
-for(s=g.a,r=null,q=0;q<9;++q){p=B.l6[q]
+for(s=g.a,r=null,q=0;q<9;++q){p=B.l5[q]
 o=$.alB()
 n=o.k(0,new A.c9(p,B.b8))
 if(n==null)continue
@@ -60207,7 +60207,7 @@ G(a){return new A.j6(this.c,A.aS([B.NO,new A.Ig(this.d)],t.n,t.xR),B.ar,!1,null)
 A.p9.prototype={
 F(){return"RoutePopDisposition."+this.b}}
 A.bQ.prototype={
-guy(){return B.l4},
+guy(){return B.l3},
 jL(){},
 oG(){var s=A.adI()
 s.bJ(0,new A.a0_(this),t.H)
@@ -60729,7 +60729,7 @@ G(a){var s,r,q=this,p=null,o=q.gWa(),n=A.CR(a),m=q.bs$,l=q.d
 l===$&&A.b()
 s=q.a.at
 if(l.gbu()==null){r=q.gDF()
-r=J.ov(r.slice(0),A.ad(r).c)}else r=B.l4
+r=J.ov(r.slice(0),A.ad(r).c)}else r=B.l3
 return new A.m_(p,new A.cd(new A.Ye(q,a),A.DP(B.bG,new A.Ax(!1,A.agE(A.tk(!0,p,A.a3P(m,new A.uB(r,s,l)),p,p,p,q.y,!1,p,p,p,p,p,!0),n),p),o,q.gW3(),p,p,o),p,t.w3),p)}}
 A.Yd.prototype={
 $1(a){var s=this.a.c
@@ -70421,7 +70421,6 @@ B.B_=new A.f5(5)
 B.B0=new A.f5(7)
 B.kx=new A.f5(8)
 B.kX=A.a(s([B.kw,B.AY,B.AZ,B.C,B.a9,B.B_,B.aR,B.B0,B.kx]),A.ao("y<f5>"))
-B.kY=A.a(s(["Ahmedabad, Gujarat, India","+91 73838 70340","cluelesstech05@gmail.com","Social Media Management Available"]),t.s)
 B.O=new A.i5(0,"rtl")
 B.o=new A.i5(1,"ltr")
 B.CU=A.a(s([B.O,B.o]),A.ao("y<i5>"))
@@ -70438,28 +70437,28 @@ B.xo=new A.nF()
 B.i1=new A.Gn(1,"page")
 B.i2=new A.e0(B.J,B.i1)
 B.CW=A.a(s([B.xo,B.i2]),A.ao("y<aJ>"))
+B.kY=A.a(s(["Ahmedabad, Gujarat, India","+91 73838 70340","cluelesstech05@gmail.com","Social Media Handling"]),t.s)
 B.kZ=A.a(s([0,0,65490,12287,65535,34815,65534,18431]),t.t)
 B.l_=A.a(s([0,0,32776,33792,1,10240,0,0]),t.t)
-B.l0=A.a(s(["Location","Phone","Email","Social Media Handling"]),t.s)
 B.CX=A.a(s(["click","scroll"]),t.s)
 B.CZ=A.a(s([0,0,32754,11263,65534,34815,65534,18431]),t.t)
 B.D2=A.a(s([]),t.QP)
 B.D7=A.a(s([]),t.sq)
-B.l2=A.a(s([]),A.ao("y<axX>"))
+B.l1=A.a(s([]),A.ao("y<axX>"))
 B.D1=A.a(s([]),A.ao("y<oz>"))
 B.PC=A.a(s([]),t.ss)
 B.D4=A.a(s([]),t.tc)
 B.ee=A.a(s([]),t.jl)
-B.l4=A.a(s([]),t.fy)
+B.l3=A.a(s([]),t.fy)
 B.D5=A.a(s([]),A.ao("y<ad7<@>>"))
 B.hd=A.a(s([]),t.AO)
 B.D0=A.a(s([]),t.D1)
 B.he=A.a(s([]),t.V)
-B.l3=A.a(s([]),t.s)
+B.l2=A.a(s([]),t.s)
 B.ab=A.a(s([]),t.oU)
 B.PD=A.a(s([]),t.p)
 B.D_=A.a(s([]),t.t)
-B.l1=A.a(s([]),t.ee)
+B.l0=A.a(s([]),t.ee)
 B.D6=A.a(s([]),A.ao("y<u?>"))
 B.eX=new A.hc(0,"left")
 B.ik=new A.hc(1,"right")
@@ -70474,7 +70473,7 @@ B.Bi=new A.cn(57622,"MaterialIcons",null)
 B.Br=new A.cn(58751,"MaterialIcons",null)
 B.Bj=new A.cn(57739,"MaterialIcons",null)
 B.Dh=A.a(s([B.kF,B.Bn,B.Bs,B.Bi,B.Br,B.Bj]),t.G1)
-B.l5=A.a(s(["HOME","ABOUT","SERVICES","PROJECTS","CONTACT"]),t.s)
+B.l4=A.a(s(["HOME","ABOUT","SERVICES","PROJECTS","CONTACT"]),t.s)
 B.B9=new A.Df(null)
 B.wJ=new A.As(null)
 B.Ie=new A.GI(null)
@@ -70492,12 +70491,13 @@ B.q9=new A.eJ(5,"numLockModifier")
 B.qa=new A.eJ(6,"scrollLockModifier")
 B.qb=new A.eJ(7,"functionModifier")
 B.FF=new A.eJ(8,"symbolModifier")
-B.l6=A.a(s([B.d8,B.d9,B.da,B.db,B.q8,B.q9,B.qa,B.qb,B.FF]),A.ao("y<eJ>"))
+B.l5=A.a(s([B.d8,B.d9,B.da,B.db,B.q8,B.q9,B.qa,B.qb,B.FF]),A.ao("y<eJ>"))
 B.ih=new A.de(1,"fuchsia")
 B.ii=new A.de(3,"linux")
 B.ij=new A.de(5,"windows")
 B.Dp=A.a(s([B.cr,B.ih,B.bp,B.ii,B.eW,B.ij]),A.ao("y<de>"))
 B.hf=A.a(s([!0,!1]),t.HZ)
+B.l6=A.a(s(["Location","Phone","Email","Social Media"]),t.s)
 B.iw=new A.cB(0,"DoubleQuote")
 B.cu=new A.cB(1,"SingleQuote")
 B.ag=new A.cB(2,"HebrewLetter")
