@@ -37023,7 +37023,7 @@ s.toString
 A.eO(s,!1,t.gl).pc()
 this.aZ()},
 G(a){var s=$.amU(),r=$.amT(),q=this.a.c.a
-return new A.u6(A.aS(["/",new A.a7l()],t.N,t.Ab),"/","Priyank Gandhi",s,r,q,!1,new A.Y4(),null)}}
+return new A.u6(A.aS(["/",new A.a7l()],t.N,t.Ab),"/","Clueless Tech",s,r,q,!1,new A.Y4(),null)}}
 A.a7l.prototype={
 $1(a){return B.F5},
 $S:324}
