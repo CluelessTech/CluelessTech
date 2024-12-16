@@ -13,7 +13,7 @@
     * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
   -->
 <!--  <base href="/">-->
-<!--  <base href="https://cluelesstech.github.io/Priyank-Gandhi/">-->
+  <base href="https://cluelesstech.github.io/Priyank-Gandhi/">
   <base href="https://cluelesstech.github.io/CluelessTech/">
 
   <meta charset="UTF-8">
